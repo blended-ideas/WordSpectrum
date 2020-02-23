@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+div.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+div.word {
+  border-radius: 10px;
+  margin: 0 1px 1px 0;
+}
