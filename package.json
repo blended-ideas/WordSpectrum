@@ -1,7 +1,23 @@
 {
-  "name": "wordspectrum",
+  "name": "@blendedideas/word-spectrum",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Colorful Paragraph Placeholder build with Stencil",
+  "keywords": [
+    "stencil",
+    "angular",
+    "react",
+    "vue",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikrp/StencilSpectrum"
+  },
+  "homepage": "https://github.com/karthikrp/StencilSpectrum",
+  "bugs": {
+    "url": "https://github.com/karthikrp/StencilSpectrum/issues",
+    "email": "blended.idea@gmail.com"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
