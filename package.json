@@ -1,6 +1,6 @@
 {
   "name": "@blendedideas/word-spectrum",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Colorful Paragraph Placeholder build with Stencil",
   "keywords": [
     "stencil",
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/karthikrp/StencilSpectrum"
+    "url": "https://github.com/karthikrp/WordSpectrum"
   },
-  "homepage": "https://github.com/karthikrp/StencilSpectrum",
+  "homepage": "https://github.com/karthikrp/WordSpectrum",
   "bugs": {
-    "url": "https://github.com/karthikrp/StencilSpectrum/issues",
+    "url": "https://github.com/karthikrp/WordSpectrum/issues",
     "email": "blended.idea@gmail.com"
   },
   "main": "dist/index.js",

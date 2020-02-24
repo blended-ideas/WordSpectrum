@@ -25,7 +25,7 @@ then add the below line to your ``<head>`` of your index.html
 
 or you can put the following tag in the ``<head>`` of your index.html and you can use the element anywhere in your application:
 
-``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.2/dist/wordspectrum.js"></script>``
+``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.3/dist/wordspectrum.js"></script>``
 
 ---
 
