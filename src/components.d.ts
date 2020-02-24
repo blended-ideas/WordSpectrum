@@ -10,12 +10,31 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
+  interface SpParagraph {
+    'lineSpacing': number;
+    'paragraphCount': number;
+    'paragraphLength': number[] | string;
+    'wordColors': string[] | string;
+    'wordHeight': number;
+    'wordRadius': number;
+    'wordSpacing': number;
+    'wordWidths': number[] | string;
+  }
+  interface SpWord {
+    'lineSpacing': number;
+    'wordColors': string[] | string;
+    'wordHeight': number;
+    'wordRadius': number;
+    'wordSpacing': number;
+    'wordWidths': number[] | string;
+  }
   interface SpectrumWords {
     'lineSpacing': number;
     'paragraphCount': number;
-    'paragraphLength': number[];
+    'paragraphLength': number[] | string;
     'wordColors': string[] | string;
     'wordHeight': number;
+    'wordRadius': number;
     'wordSpacing': number;
     'wordWidths': number[] | string;
   }
@@ -24,28 +43,63 @@ export namespace Components {
 declare global {
 
 
+  interface HTMLSpParagraphElement extends Components.SpParagraph, HTMLStencilElement {}
+  var HTMLSpParagraphElement: {
+    prototype: HTMLSpParagraphElement;
+    new (): HTMLSpParagraphElement;
+  };
+
+  interface HTMLSpWordElement extends Components.SpWord, HTMLStencilElement {}
+  var HTMLSpWordElement: {
+    prototype: HTMLSpWordElement;
+    new (): HTMLSpWordElement;
+  };
+
   interface HTMLSpectrumWordsElement extends Components.SpectrumWords, HTMLStencilElement {}
   var HTMLSpectrumWordsElement: {
     prototype: HTMLSpectrumWordsElement;
     new (): HTMLSpectrumWordsElement;
   };
   interface HTMLElementTagNameMap {
+    'sp-paragraph': HTMLSpParagraphElement;
+    'sp-word': HTMLSpWordElement;
     'spectrum-words': HTMLSpectrumWordsElement;
   }
 }
 
 declare namespace LocalJSX {
+  interface SpParagraph {
+    'lineSpacing'?: number;
+    'paragraphCount'?: number;
+    'paragraphLength'?: number[] | string;
+    'wordColors'?: string[] | string;
+    'wordHeight'?: number;
+    'wordRadius'?: number;
+    'wordSpacing'?: number;
+    'wordWidths'?: number[] | string;
+  }
+  interface SpWord {
+    'lineSpacing'?: number;
+    'wordColors'?: string[] | string;
+    'wordHeight'?: number;
+    'wordRadius'?: number;
+    'wordSpacing'?: number;
+    'wordWidths'?: number[] | string;
+  }
   interface SpectrumWords {
     'lineSpacing'?: number;
     'paragraphCount'?: number;
-    'paragraphLength'?: number[];
+    'paragraphLength'?: number[] | string;
     'wordColors'?: string[] | string;
     'wordHeight'?: number;
+    'wordRadius'?: number;
     'wordSpacing'?: number;
     'wordWidths'?: number[] | string;
   }
 
   interface IntrinsicElements {
+    'sp-paragraph': SpParagraph;
+    'sp-word': SpWord;
     'spectrum-words': SpectrumWords;
   }
 }
@@ -56,6 +110,8 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
   export namespace JSX {
     interface IntrinsicElements {
+      'sp-paragraph': LocalJSX.SpParagraph & JSXBase.HTMLAttributes<HTMLSpParagraphElement>;
+      'sp-word': LocalJSX.SpWord & JSXBase.HTMLAttributes<HTMLSpWordElement>;
       'spectrum-words': LocalJSX.SpectrumWords & JSXBase.HTMLAttributes<HTMLSpectrumWordsElement>;
     }
   }
