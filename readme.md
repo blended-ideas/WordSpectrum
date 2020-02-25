@@ -4,9 +4,9 @@
   
 # Word Spectrum  
   
-A tiny Web Component library built with Stencil to generate beautiful and colorful text placeholders 🎨
+A Web Component library to generate beautiful and colorful text placeholders 🎨
 
-Inspired by React Project by [react-spectrum](https://github.com/ganapativs/react-spectrum)
+Built with stenciljs, Really tiny in its size (**198 Bytes** Minified + Gzipped)
 
 Can be used in Angular, React, Vue, Vanilla JS and plain HTML project as well.
   
@@ -21,11 +21,11 @@ Node Modules (npm or yarn): Add the blendedideas/word-spectrum as dependency to 
 
 then add the below line to your ``<head>`` of your index.html
 
-``<script src='node_modules/wc-trombone/dist/wc-trombone.js'></script>``
+``<script src='node_modules/@blendedideas/word-spectrum/dist/wordspectrum.js'></script>``
 
 or you can put the following tag in the ``<head>`` of your index.html and you can use the element anywhere in your application:
 
-``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.3/dist/wordspectrum.js"></script>``
+``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.4/dist/wordspectrum.js"></script>``
 
 ---
 
@@ -46,3 +46,7 @@ or you can put the following tag in the ``<head>`` of your index.html and you ca
 ---
 ## Demo
 CodePen [demo](https://codepen.io/karthikrp/full/XWbpRee) and [Code](https://codepen.io/karthikrp/pen/XWbpRee) 
+
+
+---
+PS:  Inspired from [react-spectrum](https://github.com/ganapativs/react-spectrum)

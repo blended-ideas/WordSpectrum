@@ -1,7 +1,7 @@
 {
   "name": "@blendedideas/word-spectrum",
-  "version": "0.0.3",
-  "description": "Colorful Paragraph Placeholder build with Stencil",
+  "version": "0.0.4",
+  "description": "Colorful Paragraph Placeholder built with Stencil",
   "keywords": [
     "stencil",
     "angular",
