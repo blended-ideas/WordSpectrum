@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/karthikrp/WordSpectrum"
+    "url": "https://github.com/blended-ideas/WordSpectrum"
   },
-  "homepage": "https://github.com/karthikrp/WordSpectrum",
+  "homepage": "https://github.com/blended-ideas/WordSpectrum",
   "bugs": {
-    "url": "https://github.com/karthikrp/WordSpectrum/issues",
+    "url": "https://github.com/blended-ideas/WordSpectrum/issues",
     "email": "blended.idea@gmail.com"
   },
   "main": "dist/index.js",
