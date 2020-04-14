@@ -6,7 +6,7 @@
   
 A Web Component library to generate beautiful and colorful text placeholders 🎨
 
-Built with stenciljs, Really tiny in its size (**198 Bytes** Minified + Gzipped)
+Built with stenciljs, Really tiny in its size [(**198 Bytes** Minified + Gzipped)](https://bundlephobia.com/result?p=@blendedideas/word-spectrum@0.0.5)
 
 Can be used in Angular, React, Vue, Vanilla JS and plain HTML project as well.
   
@@ -25,7 +25,7 @@ then add the below line to your ``<head>`` of your index.html
 
 or you can put the following tag in the ``<head>`` of your index.html and you can use the element anywhere in your application:
 
-``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.4/dist/wordspectrum.js"></script>``
+``<script src="https://unpkg.com/@blendedideas/word-spectrum@0.0.5/dist/wordspectrum.js"></script>``
 
 ---
 
